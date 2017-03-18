@@ -1,0 +1,10 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+         updateCheck="false">
+
+    <cache name="titan"
+           maxEntriesLocalHeap="10"
+           timeToLiveSeconds="5">
+    </cache>
+
+</ehcache>
