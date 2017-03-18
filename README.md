@@ -1,5 +1,5 @@
 # Demo
-SpringBoot Web项目, 包括Session集中存储、安全授权、缓存、异常处理机制、动态数据源
+SpringBoot Web项目, 包括Session集中存储、安全授权、缓存、异常处理机制、动态数据源、Service层单元测试
 
 ## Session集中式存储
 ### 应用场景
@@ -57,6 +57,9 @@ CREATE TABLE IF NOT EXISTS `demo/demo-slave`.`member` (
   PRIMARY KEY (`id`))
 ENGINE = InnoDB
 ```
+
+## Service层单元测试
+所有测试类要继承自`BaseTestClass`, test/resources目录下的`application.properties`中配置跑测试时需要的配置。样例：`MapperTest`
 
 
 ## 模块
