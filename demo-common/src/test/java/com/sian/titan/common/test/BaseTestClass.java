@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest(classes = CommonTestApplication.class)
-@Transactional
+//@Transactional
 public class BaseTestClass {
     public static void main(String[] args) {
         SpringApplication.run(BaseTestClass.class, args);
